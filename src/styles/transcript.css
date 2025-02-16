@@ -1,0 +1,51 @@
+/*src/styles/transcript.css */
+
+.transcript-box {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .transcript-text {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 4px;
+  }
+  
+  .button-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .save-btn, .retry-btn, .cancel-btn {
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .save-btn {
+    background: #4caf50;
+    color: white;
+  }
+  
+  .retry-btn {
+    background: #fbc02d;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background: #e53935;
+    color: white;
+  }
+  
