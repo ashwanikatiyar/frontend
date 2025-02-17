@@ -1,7 +1,13 @@
+//src/components/NavButtons.jsx
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 import "./../styles/common.css";
 
 const NavButtons = () => {
+  
+  const navigate = useNavigate();
+
   return (
     <div className="nav-buttons-container">
       <button className="nav-button">
@@ -19,7 +25,7 @@ const NavButtons = () => {
           <span>T</span>
         </div>
       </button>
-      <button className="nav-button">
+      <button className="nav-button" onClick={() => navigate("/recordings")} >
         <div className="original">My Recordings</div>
         <div className="letters">
           <span>M</span>
