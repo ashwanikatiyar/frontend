@@ -9,12 +9,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, orange, rgb(237, 73, 40)); /* Orange to yellow gradient */
+    background: linear-gradient(to top, rgb(250, 96, 0), rgba(244, 53, 5, 0.984)); /* 
+    Orange to yellow gradient */
     z-index: 1000;
+    /* background: linear-gradient(to right, orange, rgb(237, 73, 40)); Orange to yellow gradient */
+
 }
   
   .loader {
     display: inline-grid;
+    
   }
   .loader:before,
   .loader:after {
@@ -22,7 +26,7 @@
     grid-area: 1/1;
     height: 30px;
     aspect-ratio: 6;
-    --c: #0000 64%, #000 66% 98%, #0000 101%;
+    --c: #f8f5f500 64%, #000 66% 98%, #0000 101%;
     background: radial-gradient(35% 146% at 50% 159%, var(--c)) 0 0,
       radial-gradient(35% 146% at 50% -59%, var(--c)) 25% 100%;
     background-size: calc(100% / 3) 50%;
